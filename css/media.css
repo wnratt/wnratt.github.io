@@ -1,0 +1,126 @@
+/*
+--------------------------------------------------------* 
+
+[Cadeniuc, Main Stylesheet ]
+
+    Color        : BLUE ( #00B6F9 )
+
+    Name         : JOHN - Responsive Onepage Resume Template
+
+    Version      :  1.0 
+
+    Author       :  Cadeniuc
+
+    Author URI   :  https://themeforest.net/user/cadeniuc
+
+    Author Email : icadeniuc16@gmail.com
+
+--------------------------------------------------------
+*/
+@media only screen and (max-width: 1200px) {
+    .left_about p {
+        line-height: 28px;
+        margin-bottom: 4px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .wrap_about img {
+        margin-top: 30px;
+        max-width: 300px;
+        margin-bottom: 40px;
+    }
+    .descr_author {
+        text-align: center;
+    }
+    .image_center_about img {
+        text-align: left;
+        margin-left: 0;
+    }
+
+}
+@media only screen and (max-width: 800px) {
+    .text_start_center h1 {
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 690px) {
+    .particles-js-canvas-el {
+        display: none;
+    }
+    .social-media a, .social_media_footer a {
+        font-size: 18px;
+        padding: 10px 6px;
+    }
+    #home nav a {
+        display: block;
+    }
+    button.menu-toggle {
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 11;
+        transform: translate(0,0);
+        -webkit-transform: translate(0,0);
+        -o-transform: translate(0,0);
+        -moz-transform: translate(0,0);
+    }
+    .holder {
+        transform: translate(0,-307px);
+        -webkit-transform: translate(0,-307px);
+        -o-transform: translate(0,-307px);
+        -moz-transform: translate(0,-307px);
+    }
+    .portfolio,
+    .contact,
+    /*.people_say,*/
+    .services,
+    .wrap_about {
+        margin-top: 0;
+        padding: 30px 0;
+    }
+    .wrap_about {
+        padding: 50px 0;
+    }
+    .title_section h2 {
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 430px) {
+    .text_start_center h1 {
+        font-size: 21px;
+    }
+    .single-project-done i,
+    .single-project-done h2 {
+        font-size: 25px;
+    }
+    .single-project-done p {
+        font-size: 12px;
+    }
+    footer {
+        padding: 0 2%;
+    }
+    .descr_author h3 {
+        font-size: 13px;
+    }
+    .title_go_about h1 {
+        font-size: 25px;
+    }
+    .title_go_about h2 {
+        font-size: 11px;
+    }
+    .image_center_about img {
+        max-width: 100%;
+    }
+    .single-service {
+        padding: 0;
+    }
+    .single-service h2 {
+        font-size: 13px;
+    }
+    .single-service p {
+        font-size: 12px;
+    }
+    .copy_my_text {
+        font-size: 15px;
+    }
+}
